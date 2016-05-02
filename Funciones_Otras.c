@@ -165,38 +165,79 @@ void mover_servo_angulo(uint8_t id_servo, uint8_t angulo)
 	if(angulo < 0 || angulo > 180) return;
 
 	switch(id_servo){
-		case 1:
+		case 0:
 			Set_TIM2_CH1_PA0(dc_tim2);
 			break;
 		
-		case 2:
+		case 1:
 			Set_TIM2_CH2_PA1(dc_tim2);
 			break;
 		
-		case 3:
+		case 2:
 			Set_TIM2_CH3_PA2(dc_tim2);
 			break;
 		
-		case 4:
+		case 3:
 			Set_TIM2_CH4_PA3(dc_tim2);
 			break;
 		
-		case 5:
+		case 6:
 			Set_TIM3_CH1_PC6(dc_tim3);
 			break;
 		
-		case 6:
+		case 7:
 			Set_TIM3_CH2_PC7(dc_tim3);
 			break;
 		
-		case 7:
+		case 8:
 			Set_TIM3_CH3_PC8(dc_tim3);
 			break;
 		
-		case 8:
+		case 9:
 			Set_TIM3_CH4_PC9(dc_tim3);
 			break;
 	}
+	
+}
+
+void initMov(){
+	mover_servo_angulo(FI1,180); // esta al reves, seria 180
+	mover_servo_angulo(TD1,0);
+	mover_servo_angulo(FD1,180);
+	mover_servo_angulo(TI1,0); // al reves
+	
+	mover_servo_angulo(TI2,0); 
+	mover_servo_angulo(FD2,0);
+	mover_servo_angulo(FI2,0); 
+	mover_servo_angulo(TD2,0);
+}
+void andar_Adelante(){
+	paso_AdelanteFITD();
+	Delay(SEC * 0.75);
+	paso_AdelanteFDTI();
+	Delay(SEC * 0.75);
+}
+void paso_AdelanteFITD(){
+	mover_servo_angulo(FD2,levantar);
+	mover_servo_angulo(TI2,levantar);
+	mover_servo_angulo(TD2,0);
+	mover_servo_angulo(FI2,0);
+	Delay(SEC * 0.25);
+	mover_servo_angulo(FI1,0);// porque esta al reves
+	mover_servo_angulo(TD1,180);
+	mover_servo_angulo(TI1,180); // al reves 
+	mover_servo_angulo(FD1,0);
+}
+void paso_AdelanteFDTI(){
+	mover_servo_angulo(FD2,0);
+	mover_servo_angulo(TI2,0);
+	mover_servo_angulo(TD2,levantar);
+	mover_servo_angulo(FI2,levantar);
+	Delay(SEC * 0.25);
+	mover_servo_angulo(FI1,180);// porque esta al reves
+	mover_servo_angulo(TD1,0);
+	mover_servo_angulo(TI1,0); // al reves 
+	mover_servo_angulo(FD1,180);
 	
 	
 }

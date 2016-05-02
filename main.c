@@ -85,30 +85,18 @@ int main(void)
 	
 	display(00);
   Delay (4*SEC); 
-	
+	initMov();
 	
   while (1)
   {
 		//display(0);
-		mover_servo_angulo(1,0);
-		mover_servo_angulo(2,0);
-		mover_servo_angulo(3,0);
-		mover_servo_angulo(4,0);
-		mover_servo_angulo(5,0);
-		mover_servo_angulo(6,0);
-		mover_servo_angulo(7,0);
-		mover_servo_angulo(8,0);
-		Delay (2*SEC);
+
+		
+		//Delay (2*SEC);
 		//display(90);
-		mover_servo_angulo(1,90);
-		mover_servo_angulo(2,90);
-		mover_servo_angulo(3,90);
-		mover_servo_angulo(4,90);
-	  mover_servo_angulo(5,90);
-		mover_servo_angulo(6,90);
-		mover_servo_angulo(7,90);
-		mover_servo_angulo(8,90);
-		Delay (2*SEC);
+
+		andar_Adelante();
+		//Delay (2*SEC);
 
 		//
 

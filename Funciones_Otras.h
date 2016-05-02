@@ -17,7 +17,22 @@
 #define PULSO_MAX_SERVO_TIM2 47
 
 #define PULSO_MIN_SERVO_TIM3 8
-#define PULSO_MAX_SERVO_TIM3 32 // esta mal
+#define PULSO_MAX_SERVO_TIM3 32
+
+#define FD1 8
+#define FD2 9
+#define FI1 6
+#define FI2 7
+#define TD1 2
+#define TD2 3
+#define TI1 0
+#define TI2 1
+
+#define SEC 10000000
+
+#define levantar 20
+
+
 
 /* -------Parametros modificables del programa----------- */
 
@@ -47,4 +62,10 @@ void Inicia_PortA_display_7SEGM(void);
 void Write_Port_Masked(GPIO_TypeDef* GPIOx, uint16_t valor_16, uint16_t mascara_16);
 void display(uint8_t valor);
 void mover_servo_angulo(uint8_t id_servo, uint8_t angulo);
+
+// movimiento
+void initMov();
+void andar_Adelante();
+void paso_AdelanteFITD();
+void paso_AdelanteFDTI();
 
