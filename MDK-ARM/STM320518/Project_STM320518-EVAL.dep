@@ -100,7 +100,7 @@ I (..\..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x54809B2
 I (..\..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54809B20)
 I (..\stm32f0xx_it.h)(0x4FB6727C)
 I (..\LCD.h)(0x562E5098)
-F (..\main.c)(0x571DFF4C)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\ -I ..\..\..\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I ..\..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I ..\..\..\Utilities\STM32_EVAL -I ..\..\..\Utilities\STM32_EVAL\Common -I ..\..\..\Utilities\STM32_EVAL\STM320518_EVAL -I ..\..\..\Libraries\STM32F0xx_CPAL_Driver\inc-I "C:\Users\Jose\Desktop\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\Cortex M0_Control Remoto SERVOS\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F051 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DUSE_STM320518_EVAL -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\stm320518\main.o --omf_browse .\stm320518\main.crf --depend .\stm320518\main.d)
+F (..\main.c)(0x572736EC)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\ -I ..\..\..\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I ..\..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I ..\..\..\Utilities\STM32_EVAL -I ..\..\..\Utilities\STM32_EVAL\Common -I ..\..\..\Utilities\STM32_EVAL\STM320518_EVAL -I ..\..\..\Libraries\STM32F0xx_CPAL_Driver\inc-I "C:\Users\Jose\Desktop\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\Cortex M0_Control Remoto SERVOS\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F051 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DUSE_STM320518_EVAL -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\stm320518\main.o --omf_browse .\stm320518\main.crf --depend .\stm320518\main.d)
 I (..\..\..\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54809B1E)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5626197C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569E5ABA)
@@ -134,9 +134,9 @@ I (..\Func_inicio_Servos.h)(0x571DE5FD)
 I (..\main.h)(0x56DAC51C)
 I (..\stm32f0xx_it.h)(0x4FB6727C)
 I (..\LCD.h)(0x562E5098)
-I (..\Funciones_Otras.h)(0x571E0089)
+I (..\Funciones_Otras.h)(0x57273779)
 F (..\LCD.h)(0x562E5098)()
-F (..\Funciones_Otras.c)(0x571E0109)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\ -I ..\..\..\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I ..\..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I ..\..\..\Utilities\STM32_EVAL -I ..\..\..\Utilities\STM32_EVAL\Common -I ..\..\..\Utilities\STM32_EVAL\STM320518_EVAL -I ..\..\..\Libraries\STM32F0xx_CPAL_Driver\inc-I "C:\Users\Jose\Desktop\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\Cortex M0_Control Remoto SERVOS\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F051 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DUSE_STM320518_EVAL -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\stm320518\funciones_otras.o --omf_browse .\stm320518\funciones_otras.crf --depend .\stm320518\funciones_otras.d)
+F (..\Funciones_Otras.c)(0x5727379B)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\ -I ..\..\..\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I ..\..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I ..\..\..\Utilities\STM32_EVAL -I ..\..\..\Utilities\STM32_EVAL\Common -I ..\..\..\Utilities\STM32_EVAL\STM320518_EVAL -I ..\..\..\Libraries\STM32F0xx_CPAL_Driver\inc-I "C:\Users\Jose\Desktop\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\Cortex M0_Control Remoto SERVOS\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F051 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DUSE_STM320518_EVAL -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\stm320518\funciones_otras.o --omf_browse .\stm320518\funciones_otras.crf --depend .\stm320518\funciones_otras.d)
 I (..\main.h)(0x56DAC51C)
 I (..\..\..\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54809B1E)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5626197C)
@@ -168,9 +168,9 @@ I (..\..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54809B
 I (..\..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x54809B20)
 I (..\..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54809B20)
 I (..\stm32f0xx_it.h)(0x4FB6727C)
-I (..\Funciones_Otras.h)(0x571E0089)
+I (..\Funciones_Otras.h)(0x57273779)
 I (..\Func_inicio_Servos.h)(0x571DE5FD)
-F (..\Funciones_Otras.h)(0x571E0089)()
+F (..\Funciones_Otras.h)(0x57273779)()
 F (..\..\..\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_adc.c)(0x54809B23)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\ -I ..\..\..\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I ..\..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I ..\..\..\Utilities\STM32_EVAL -I ..\..\..\Utilities\STM32_EVAL\Common -I ..\..\..\Utilities\STM32_EVAL\STM320518_EVAL -I ..\..\..\Libraries\STM32F0xx_CPAL_Driver\inc-I "C:\Users\Jose\Desktop\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\Cortex M0_Control Remoto SERVOS\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F051 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DUSE_STM320518_EVAL -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\stm320518\stm32f0xx_adc.o --omf_browse .\stm320518\stm32f0xx_adc.crf --depend .\stm320518\stm32f0xx_adc.d)
 I (..\..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54809B20)
 I (..\..\..\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54809B1E)
