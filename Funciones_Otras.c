@@ -1,4 +1,4 @@
-//  JJSM
+//  Dídac Bosch & Jose R. Prieto
 //  Funciones manejo display 7 segmentos y ADC
 //
 /*----------------------------------------------------------------------------
@@ -228,6 +228,7 @@ void paso_AdelanteFITD(){
 	mover_servo_angulo(TI1,180); // al reves 
 	mover_servo_angulo(FD1,0);
 }
+
 void paso_AdelanteFDTI(){
 	mover_servo_angulo(FD2,0);
 	mover_servo_angulo(TI2,0);
@@ -240,4 +241,37 @@ void paso_AdelanteFDTI(){
 	mover_servo_angulo(FD1,180);
 	
 	
+}
+
+void girar(uint8_t grados){
+	// se levantan dos
+	mover_servo_angulo(FD2,20);
+	mover_servo_angulo(TI2,20);
+	// mover las dos de delante adelante
+	mover_servo_angulo(FD1,0);
+	mover_servo_angulo(FI1,180); // al reves
+	// mover las dos de atras para atras
+	mover_servo_angulo(TI1,180); // al reves
+	mover_servo_angulo(TD1,0);
+	Delay(1*SEC);
+  //bajamos patas
+	mover_servo_angulo(FD2,20);
+	mover_servo_angulo(TI2,20);
+	Delay(1*SEC);
+	
+	//levantamos el otro par
+	mover_servo_angulo(FI2,20);
+	mover_servo_angulo(TD2,20);
+  //mover las dos de delante atras
+	mover_servo_angulo(FI1,180);
+	mover_servo_angulo(FD1,0); // al reves
+	// mover las dos de atras adelante
+	mover_servo_angulo(TI1,0); // al reves
+	mover_servo_angulo(TD1,180);
+	Delay(1*SEC);
+//bajamos las patas
+	mover_servo_angulo(FI2,20);
+	mover_servo_angulo(TD2,20);
+	Delay(1*SEC);
+
 }

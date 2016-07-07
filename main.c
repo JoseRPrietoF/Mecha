@@ -86,16 +86,41 @@ int main(void)
 	display(00);
   Delay (4*SEC); 
 	initMov();
-	
+	Delay(SEC);
   while (1)
   {
 		//display(0);
-
-		
-		//Delay (2*SEC);
+	/*
+		mover_servo_angulo(TD2,90);
+		mover_servo_angulo(TD1,31);
+		Delay (1*SEC);
 		//display(90);
-
+		mover_servo_angulo(TD2,0);
+		mover_servo_angulo(TD1,155);
+		Delay(SEC);
+*/
+		
 		andar_Adelante();
+		//girar(0);
+//	mover_servo_angulo(FD2,20);
+//	mover_servo_angulo(TI2,20);
+	// mover las dos de delante adelante
+	//mover_servo_angulo(FD1,0);
+//	mover_servo_angulo(FI1,180); // al reves
+	// mover las dos de atras para atras
+//	mover_servo_angulo(TI1,180); // al reves
+//	mover_servo_angulo(TD1,0);
+	//Delay(1*SEC);
+  //bajamos patas
+	//mover_servo_angulo(FD2,20);
+//	mover_servo_angulo(TI2,20);
+	//Delay(1*SEC);
+		
+		
+		
+		
+		
+		
 		//Delay (2*SEC);
 
 		//

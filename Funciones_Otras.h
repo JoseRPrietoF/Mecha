@@ -1,7 +1,7 @@
 /**
   ******************************************************************************
   * @file    Funciones_otras.h
-  * @author  Juan José Serrano M.
+  * @author  Dídac Bosch & Jose R. Prieto
   * @date    Marzo 2016.
   * @brief   Funciones manejos otros perifericos display 7 segmentos,....
 	
@@ -68,4 +68,5 @@ void initMov();
 void andar_Adelante();
 void paso_AdelanteFITD();
 void paso_AdelanteFDTI();
+void girar(uint8_t grados);
 
