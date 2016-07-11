@@ -70,3 +70,14 @@ void paso_AdelanteFITD();
 void paso_AdelanteFDTI();
 void girar(uint8_t grados);
 
+// movimiento por pata
+void pataFrontalIzquierda1(uint8_t angulo);
+void pataFrontalDerecha1(uint8_t angulo);
+void pataFrontalIzquierda2(uint8_t angulo);
+void pataFrontalDerecha2(uint8_t angulo);
+
+void pataTraseraIzquierda1(uint8_t angulo);
+void pataTraseraDerecha1(uint8_t angulo);
+void pataTraseraIzquierda2(uint8_t angulo);
+void pataTraseraDerecha2(uint8_t angulo);
+

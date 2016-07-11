@@ -275,3 +275,31 @@ void girar(uint8_t grados){
 	Delay(1*SEC);
 
 }
+
+// movimiento por pata
+void pataFrontalIzquierda1(uint8_t angulo){
+	mover_servo_angulo(FI1,angulo);
+}
+void pataFrontalDerecha1(uint8_t angulo){
+	mover_servo_angulo(FD1,(-1)*angulo);
+}
+void pataFrontalIzquierda2(uint8_t angulo){
+	mover_servo_angulo(FI2,angulo);
+}
+
+void pataFrontalDerecha2(uint8_t angulo){
+	mover_servo_angulo(FD2,angulo);
+}
+
+void pataTraseraIzquierda1(uint8_t angulo){
+	mover_servo_angulo(TI1,(-1)*angulo);
+}
+void pataTraseraDerecha1(uint8_t angulo){
+	mover_servo_angulo(TD1,angulo);
+}
+void pataTraseraIzquierda2(uint8_t angulo){
+	mover_servo_angulo(TI2,angulo);
+}
+void pataTraseraDerecha2(uint8_t angulo){
+	mover_servo_angulo(TD2,angulo);
+}
